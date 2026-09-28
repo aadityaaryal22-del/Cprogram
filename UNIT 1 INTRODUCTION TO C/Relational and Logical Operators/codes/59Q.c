@@ -1,0 +1,19 @@
+ //Write a program to check whether a number lies between 10 and 50.
+ #include <stdio.h>
+ #include <conio.h>
+
+ int main() {
+     int n;
+     printf("Enter a number: ");
+     scanf("%d", &n);
+    
+     if (n > 10 && n < 50) {
+         printf("The number lies between 10 and 50.\n");
+     } 
+     else {
+         printf("The number does not lie between 10 and 50.\n");
+     }
+     
+     getch();
+     return 0;
+ }
